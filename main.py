@@ -8,18 +8,26 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import FloodWait
 from pyromod import listen
 from pyrogram.types import Message
-from pyrogram import Client, filters
+import pyrogram
+import tgcrypto
 from p_bar import progress_bar
+#from details import api_id, api_hash, bot_token
 from subprocess import getstatusoutput
-from aiohttp import ClientSession
 import helper
-from logger import logging
+import logging
 import time
+import glob
+import aiohttp
 import asyncio
+import aiofiles
 from pyrogram.types import User, Message
-import sys
+# import progressor
+# from progressor import progress_for_pyrogram
+#import sys
 import re
 import os
+import io
+import logging
 
 bot = Client("bot",
              bot_token= "6818261867:AAFhXboqTtBzh7vl1Mh05B9z0VZZGHsC9iU",
