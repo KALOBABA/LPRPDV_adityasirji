@@ -23,4 +23,3 @@ umongo==3.1.0
 speedtest-cli
 yt-dlp
 ffmpeg
-mp4decrypt
